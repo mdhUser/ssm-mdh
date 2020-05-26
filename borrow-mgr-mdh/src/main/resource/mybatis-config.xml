@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE configuration
+                PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+                "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--mybatis系统环境配置-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--别名处理-->
+    <typeAliases>
+        <package name="com.kgc.borrow.beans"/>
+    </typeAliases>
+    <!--<mappers>-->
+        <!--<package name="com.kgc.edoc.mapper"/>-->
+    <!--</mappers>-->
+</configuration>
